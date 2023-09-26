@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Firebase Chat App",
+    description: "Chat Web App Using Firebase",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 2,
     title: "Calculator",
     description: "Simple Calculator React Web App",
     image: "projects/Calculator.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Qr Code Scanner",
     description: "Qr Code Scanner",
     image: "projects/QR-code.webp",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tic Tac Toe",
     description: "Simple Game",
     image: "projects/TicTac.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo",
     description: "Todo list to help manage your day",
     image: "projects/Todo.png",
@@ -42,21 +51,12 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Weather App",
     description: "Simple Weather App",
     image: "projects/Weather.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/akrem2005/WeatherApp.git",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
     previewUrl: "/",
   },
 ];
